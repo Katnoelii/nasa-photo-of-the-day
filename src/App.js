@@ -18,17 +18,21 @@ function App() {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border:1px solid lightskyblue;
   `;
   const Text = styled.p`
-  color:lightblue;
+  text-align:center;
+  color:lightskyblue;
   width:65%;
+  border:1px solid lightskyblue;
+  padding:20px;
   `;
   const Headline = styled.div`
   text-decoration: underline;
-  color:lightblue;
+  color:lightskyblue;
   `;
   const Picture = styled.div`
-  border:1px solid lightblue;
+  border:2px solid lightskyblue;
   `
 
   useEffect(() => {
