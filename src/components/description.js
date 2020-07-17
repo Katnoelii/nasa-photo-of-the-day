@@ -1,6 +1,6 @@
 import React from "react"
 
-const Description = props => {
+const Explanation = props => {
 
     return (
         <>
@@ -11,4 +11,4 @@ const Description = props => {
     )
 }
 
-export default Description
+export default Explanation;

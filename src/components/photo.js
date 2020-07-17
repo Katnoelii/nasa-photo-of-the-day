@@ -1,14 +1,12 @@
 import React from 'react'
 
-const Photo = props => {
+const Photos = props => {
 
     return (
-        <html>
-            <div className="todayPic">
-                <img src={props.imgUrl}/>
-            </div>
-        </html>
+        <div>
+            <img src={props.imgUrl} alt='please read description below'/>
+        </div>
     )
 }
 
-export default Photo
+export default Photos;
